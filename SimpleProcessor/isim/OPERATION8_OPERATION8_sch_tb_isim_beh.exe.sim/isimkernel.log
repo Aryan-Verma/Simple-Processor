@@ -1,0 +1,29 @@
+Command line:
+   OPERATION8_OPERATION8_sch_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54048
+
+Sun Jun 07 20:15:46 2020
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5164.92 Meg
+
+ Total Signals          : 1560
+ Total Nets             : 356
+ Total Signal Drivers   : 305
+ Total Blocks           : 315
+ Total Primitive Blocks : 278
+ Total Processes        : 299
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 857
+Total Line Count : 315
+
+ Total Simulation Time: 0.234375 sec
+
+ Current Memory Usage: 5007.63 Meg
+
+Sun Jun 07 20:17:16 2020
+

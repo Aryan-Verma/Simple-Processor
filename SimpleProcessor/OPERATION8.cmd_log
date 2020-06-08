@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION8.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION8.syr" 

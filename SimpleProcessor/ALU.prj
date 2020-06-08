@@ -1,0 +1,3 @@
+vhdl work "MUX3.vhf"
+vhdl work "FA.vhd"
+vhdl work "ALU.vhf"

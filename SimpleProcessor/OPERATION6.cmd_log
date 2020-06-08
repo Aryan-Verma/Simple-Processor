@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION6.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION6.ngc OPERATION6.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION6_map.ncd OPERATION6.ngd OPERATION6.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION6.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION6.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION6.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION6.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION6.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION6.ngc OPERATION6.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION6_map.ncd OPERATION6.ngd OPERATION6.pcf 

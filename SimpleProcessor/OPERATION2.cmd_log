@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION2.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION2.ngc OPERATION2.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION2_map.ncd OPERATION2.ngd OPERATION2.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION2.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION2.ngc OPERATION2.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION2_map.ncd OPERATION2.ngd OPERATION2.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION2.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION2.ngc OPERATION2.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION2_map.ncd OPERATION2.ngd OPERATION2.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION2.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION2.ngc OPERATION2.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION2_map.ncd OPERATION2.ngd OPERATION2.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION2.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION2.ngc OPERATION2.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION2_map.ncd OPERATION2.ngd OPERATION2.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION2.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION2.ngc OPERATION2.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION2_map.ncd OPERATION2.ngd OPERATION2.pcf 

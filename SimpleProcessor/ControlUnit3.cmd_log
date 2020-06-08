@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit3.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ControlUnit3.ngc ControlUnit3.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ControlUnit3_map.ncd ControlUnit3.ngd ControlUnit3.pcf 
+vhdtdtfi -lib work ControlUnit3.vhd -prj SimpleProcessor -o ControlUnit3.spl -module ControlUnit3 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w ControlUnit3.spl H:/xilinx/SimpleProcessor/ControlUnit3.sym 

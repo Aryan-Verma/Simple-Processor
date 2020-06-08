@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/MUX3.xst" -ofn "H:/xilinx/SimpleProcessor/MUX3.syr" 
+sch2sym -intstyle ise -family spartan3a -w -refsym MUX3 H:/xilinx/SimpleProcessor/MUX3.sch H:/xilinx/SimpleProcessor/MUX3.sym 

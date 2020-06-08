@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit7.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit7.syr" 
+vhdtdtfi -lib work ControlUnit7.vhd -prj SimpleProcessor -o ControlUnit7.spl -module ControlUnit7 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w ControlUnit7.spl H:/xilinx/SimpleProcessor/ControlUnit7.sym 

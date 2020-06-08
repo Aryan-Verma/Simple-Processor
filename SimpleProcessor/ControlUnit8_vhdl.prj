@@ -1,0 +1,3 @@
+vhdl work "H:\xilinx\SimpleProcessor\F_F.vhf"
+vhdl work "H:\xilinx\SimpleProcessor\ControlUnit8.vhd"
+vhdl work "H:\xilinx\SimpleProcessor\Processor.vhf"

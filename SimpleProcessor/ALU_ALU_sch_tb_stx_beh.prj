@@ -1,0 +1,3 @@
+vhdl isim_temp "MUX3.vhf"
+vhdl isim_temp "FA.vhd"
+vhdl isim_temp "ALU_TB.vhd"

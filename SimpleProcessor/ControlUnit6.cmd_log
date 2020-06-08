@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit6.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ControlUnit6.ngc ControlUnit6.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ControlUnit6_map.ncd ControlUnit6.ngd ControlUnit6.pcf 
+vhdtdtfi -lib work ControlUnit6.vhd -prj SimpleProcessor -o ControlUnit6.spl -module ControlUnit6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w ControlUnit6.spl H:/xilinx/SimpleProcessor/ControlUnit6.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit6.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit6.syr" 
+vhdtdtfi -lib work ControlUnit6.vhd -prj SimpleProcessor -o ControlUnit6.spl -module ControlUnit6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w ControlUnit6.spl H:/xilinx/SimpleProcessor/ControlUnit6.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit6.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit6.syr" 
+vhdtdtfi -lib work ControlUnit6.vhd -prj SimpleProcessor -o ControlUnit6.spl -module ControlUnit6 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w ControlUnit6.spl H:/xilinx/SimpleProcessor/ControlUnit6.sym 

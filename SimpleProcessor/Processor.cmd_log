@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Processor.xst" -ofn "H:/xilinx/SimpleProcessor/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Processor.xst" -ofn "H:/xilinx/SimpleProcessor/Processor.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Processor.xst" -ofn "H:/xilinx/SimpleProcessor/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Processor.xst" -ofn "H:/xilinx/SimpleProcessor/Processor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 Processor.ngc Processor.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+sch2vhdl -intstyle ise -family spartan3a -tionly -w H:/xilinx/SimpleProcessor/Processor.sch Processor.vhi 
+sch2vhdl -intstyle ise -family spartan3a -tionly -w H:/xilinx/SimpleProcessor/Processor.sch Processor.vhi 
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Processor_map.ncd Processor.ngd Processor.pcf 

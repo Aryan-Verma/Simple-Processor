@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALUEightBit.xst" -ofn "H:/xilinx/SimpleProcessor/ALUEightBit.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALUEightBit.xst" -ofn "H:/xilinx/SimpleProcessor/ALUEightBit.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALUEightBit.xst" -ofn "H:/xilinx/SimpleProcessor/ALUEightBit.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALUEightBit.xst" -ofn "H:/xilinx/SimpleProcessor/ALUEightBit.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALUEightBit.xst" -ofn "H:/xilinx/SimpleProcessor/ALUEightBit.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALUEightBit.xst" -ofn "H:/xilinx/SimpleProcessor/ALUEightBit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ALUEightBit.ngc ALUEightBit.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ALUEightBit_map.ncd ALUEightBit.ngd ALUEightBit.pcf 
+sch2sym -intstyle ise -family spartan3a -w -refsym ALUEightBit H:/xilinx/SimpleProcessor/ALUEightBit.sch H:/xilinx/SimpleProcessor/ALUEightBit.sym 

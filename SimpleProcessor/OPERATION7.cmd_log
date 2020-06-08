@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION7.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION7.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION7.ngc OPERATION7.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION7_map.ncd OPERATION7.ngd OPERATION7.pcf 

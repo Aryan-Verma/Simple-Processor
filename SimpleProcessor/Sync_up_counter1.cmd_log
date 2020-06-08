@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/Sync_up_counter1.xst" -ofn "H:/xilinx/SimpleProcessor/Sync_up_counter1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 Sync_up_counter1.ngc Sync_up_counter1.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o Sync_up_counter1_map.ncd Sync_up_counter1.ngd Sync_up_counter1.pcf 
+vhdtdtfi -lib work Sync_up_counter1.vhd -prj SimpleProcessor -o Sync_up_counter1.spl -module Sync_up_counter1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w Sync_up_counter1.spl H:/xilinx/SimpleProcessor/Sync_up_counter1.sym 

@@ -1,0 +1,581 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: OPERATION2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "OPERATION2.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "OPERATION2"
+Output Format                      : NGC
+Target Device                      : xc3s700a-4-fg484
+
+---- Source Options
+Top Module Name                    : OPERATION2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "H:/xilinx/SimpleProcessor/FA.vhd" in Library work.
+Architecture dataflow of Entity fa is up to date.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/ControlUnit2.vhd" in Library work.
+Architecture behavioural of Entity controlunit2 is up to date.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/Processor.vhf" in Library work.
+Architecture or8_hxilinx_processor_v of Entity or8_hxilinx_processor is up to date.
+Architecture behavioral of Entity f_f_muser_processor is up to date.
+Architecture behavioral of Entity memorunit_muser_processor is up to date.
+Architecture behavioral of Entity mux3_muser_processor is up to date.
+Architecture behavioral of Entity alu_muser_processor is up to date.
+Architecture behavioral of Entity alueightbit_muser_processor is up to date.
+Architecture behavioral of Entity processor is up to date.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/OPERATION2.vhf" in Library work.
+Entity <or8_hxilinx_operation2> compiled.
+Entity <or8_hxilinx_operation2> (Architecture <or8_hxilinx_operation2_v>) compiled.
+Entity <f_f_muser_operation2> compiled.
+Entity <f_f_muser_operation2> (Architecture <behavioral>) compiled.
+Entity <memorunit_muser_operation2> compiled.
+Entity <memorunit_muser_operation2> (Architecture <behavioral>) compiled.
+Entity <mux3_muser_operation2> compiled.
+Entity <mux3_muser_operation2> (Architecture <behavioral>) compiled.
+Entity <alu_muser_operation2> compiled.
+Entity <alu_muser_operation2> (Architecture <behavioral>) compiled.
+Entity <alueightbit_muser_operation2> compiled.
+Entity <alueightbit_muser_operation2> (Architecture <behavioral>) compiled.
+Entity <operation2> compiled.
+Entity <operation2> (Architecture <behavioral>) compiled.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/ALUEightBit.vhf" in Library work.
+Architecture or8_hxilinx_alueightbit_v of Entity or8_hxilinx_alueightbit is up to date.
+Architecture behavioral of Entity f_f_muser_alueightbit is up to date.
+Architecture behavioral of Entity memorunit_muser_alueightbit is up to date.
+Architecture behavioral of Entity mux3_muser_alueightbit is up to date.
+Architecture behavioral of Entity alu_muser_alueightbit is up to date.
+Architecture behavioral of Entity alueightbit is up to date.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/ALU.vhf" in Library work.
+Architecture or8_hxilinx_alu_v of Entity or8_hxilinx_alu is up to date.
+Architecture behavioral of Entity mux3_muser_alu is up to date.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/MemorUnit.vhf" in Library work.
+Architecture behavioral of Entity f_f_muser_memorunit is up to date.
+Architecture behavioral of Entity memorunit is up to date.
+Compiling vhdl file "H:/xilinx/SimpleProcessor/MUX3.vhf" in Library work.
+Architecture or8_hxilinx_mux3_v of Entity or8_hxilinx_mux3 is up to date.
+Architecture behavioral of Entity mux3 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <OPERATION2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ControlUnit2> in library <work> (architecture <behavioural>).
+
+Analyzing hierarchy for entity <ALUEightBit_MUSER_OPERATION2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU_MUSER_OPERATION2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MemorUnit_MUSER_OPERATION2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FA> in library <work> (architecture <dataflow>).
+
+Analyzing hierarchy for entity <MUX3_MUSER_OPERATION2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <F_F_MUSER_OPERATION2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <OR8_HXILINX_OPERATION2> in library <work> (architecture <or8_hxilinx_operation2_v>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <OPERATION2> in library <work> (Architecture <behavioral>).
+Entity <OPERATION2> analyzed. Unit <OPERATION2> generated.
+
+Analyzing Entity <ControlUnit2> in library <work> (Architecture <behavioural>).
+Entity <ControlUnit2> analyzed. Unit <ControlUnit2> generated.
+
+Analyzing Entity <ALUEightBit_MUSER_OPERATION2> in library <work> (Architecture <behavioral>).
+Entity <ALUEightBit_MUSER_OPERATION2> analyzed. Unit <ALUEightBit_MUSER_OPERATION2> generated.
+
+Analyzing Entity <ALU_MUSER_OPERATION2> in library <work> (Architecture <behavioral>).
+Entity <ALU_MUSER_OPERATION2> analyzed. Unit <ALU_MUSER_OPERATION2> generated.
+
+Analyzing Entity <FA> in library <work> (Architecture <dataflow>).
+Entity <FA> analyzed. Unit <FA> generated.
+
+Analyzing Entity <MUX3_MUSER_OPERATION2> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  XLXI_15_0" for instance <XLXI_15> in unit <MUX3_MUSER_OPERATION2>.
+Entity <MUX3_MUSER_OPERATION2> analyzed. Unit <MUX3_MUSER_OPERATION2> generated.
+
+Analyzing Entity <OR8_HXILINX_OPERATION2> in library <work> (Architecture <or8_hxilinx_operation2_v>).
+Entity <OR8_HXILINX_OPERATION2> analyzed. Unit <OR8_HXILINX_OPERATION2> generated.
+
+Analyzing Entity <MemorUnit_MUSER_OPERATION2> in library <work> (Architecture <behavioral>).
+Entity <MemorUnit_MUSER_OPERATION2> analyzed. Unit <MemorUnit_MUSER_OPERATION2> generated.
+
+Analyzing Entity <F_F_MUSER_OPERATION2> in library <work> (Architecture <behavioral>).
+Entity <F_F_MUSER_OPERATION2> analyzed. Unit <F_F_MUSER_OPERATION2> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ControlUnit2>.
+    Related source file is "H:/xilinx/SimpleProcessor/ControlUnit2.vhd".
+    Found 8x3-bit ROM for signal <check$mux0000>.
+    Found 3-bit register for signal <check>.
+    Found 3-bit up counter for signal <count>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   3 D-type flip-flop(s).
+Unit <ControlUnit2> synthesized.
+
+
+Synthesizing Unit <FA>.
+    Related source file is "H:/xilinx/SimpleProcessor/FA.vhd".
+    Found 1-bit xor3 for signal <S>.
+    Summary:
+	inferred   1 Xor(s).
+Unit <FA> synthesized.
+
+
+Synthesizing Unit <OR8_HXILINX_OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+Unit <OR8_HXILINX_OPERATION2> synthesized.
+
+
+Synthesizing Unit <MUX3_MUSER_OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+Unit <MUX3_MUSER_OPERATION2> synthesized.
+
+
+Synthesizing Unit <F_F_MUSER_OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+Unit <F_F_MUSER_OPERATION2> synthesized.
+
+
+Synthesizing Unit <ALU_MUSER_OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+Unit <ALU_MUSER_OPERATION2> synthesized.
+
+
+Synthesizing Unit <MemorUnit_MUSER_OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+Unit <MemorUnit_MUSER_OPERATION2> synthesized.
+
+
+Synthesizing Unit <ALUEightBit_MUSER_OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+WARNING:Xst:653 - Signal <XLXI_8_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_7_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_6_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_5_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_4_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_3_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_2_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_1_Slt_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <ALUEightBit_MUSER_OPERATION2> synthesized.
+
+
+Synthesizing Unit <OPERATION2>.
+    Related source file is "H:/xilinx/SimpleProcessor/OPERATION2.vhf".
+Unit <OPERATION2> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x3-bit ROM                                           : 1
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 1
+ 3-bit register                                        : 1
+# Xors                                                 : 8
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <ControlUnit2>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_check_mux0000> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <ControlUnit2> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x3-bit ROM                                           : 1
+# Counters                                             : 1
+ 3-bit up counter                                      : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Xors                                                 : 8
+ 1-bit xor3                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <XLXI_1/check_2> (without init value) has a constant value of 0 in block <OPERATION2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <XLXI_1/check_1> (without init value) has a constant value of 1 in block <OPERATION2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <XLXI_1/count_1> of sequential type is unconnected in block <OPERATION2>.
+WARNING:Xst:2677 - Node <XLXI_1/count_2> of sequential type is unconnected in block <OPERATION2>.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: Q1, XLXI_8/XLXN_20.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: Q2, XLXI_3/XLXN_20.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: Q3, XLXI_4/XLXN_20.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: Q4, XLXI_5/XLXN_20.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: XLXI_6/XLXN_20, Q5.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: Q6, XLXI_7/XLXN_20.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: XLXI_9/XLXN_20, Q7.
+WARNING:Xst:2170 - Unit MemorUnit_MUSER_OPERATION2 : the following signal(s) form a combinatorial loop: Q8, XLXI_10/XLXN_20.
+
+Optimizing unit <OPERATION2> ...
+
+Optimizing unit <OR8_HXILINX_OPERATION2> ...
+
+Optimizing unit <MUX3_MUSER_OPERATION2> ...
+
+Optimizing unit <ALU_MUSER_OPERATION2> ...
+
+Optimizing unit <MemorUnit_MUSER_OPERATION2> ...
+
+Optimizing unit <ALUEightBit_MUSER_OPERATION2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block OPERATION2, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : OPERATION2.ngr
+Top Level Output File Name         : OPERATION2
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 29
+
+Cell Usage :
+# BELS                             : 237
+#      AND2                        : 24
+#      AND4                        : 64
+#      GND                         : 1
+#      INV                         : 82
+#      LUT2                        : 1
+#      LUT3                        : 28
+#      LUT4                        : 10
+#      MUXF5                       : 1
+#      OR2                         : 16
+#      VCC                         : 2
+#      XOR2                        : 8
+# FlipFlops/Latches                : 2
+#      FDC                         : 1
+#      FDE                         : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 29
+#      IBUF                        : 20
+#      OBUF                        : 9
+# Logical                          : 64
+#      NAND2                       : 64
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700afg484-4 
+
+ Number of Slices:                       25  out of   5888     0%  
+ Number of Slice Flip Flops:              2  out of  11776     0%  
+ Number of 4 input LUTs:                121  out of  11776     1%  
+ Number of IOs:                          29
+ Number of bonded IOBs:                  29  out of    372     7%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | IBUF+BUFG              | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Reset                              | IBUF                   | 1     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.358ns (Maximum Frequency: 424.088MHz)
+   Minimum input arrival time before clock: 2.676ns
+   Maximum output required time after clock: 11.126ns
+   Maximum combinational path delay: 25.672ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 2.358ns (frequency: 424.088MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               2.358ns (Levels of Logic = 1)
+  Source:            XLXI_1/count_0 (FF)
+  Destination:       XLXI_1/count_0 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: XLXI_1/count_0 to XLXI_1/count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_1/count_0 (XLXI_1/count_0)
+     INV:I->O              1   0.648   0.420  XLXI_1/Mcount_count_xor<0>11_INV_0 (Result<0>)
+     FDC:D                     0.252          XLXI_1/count_0
+    ----------------------------------------
+    Total                      2.358ns (1.491ns logic, 0.867ns route)
+                                       (63.2% logic, 36.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.676ns (Levels of Logic = 2)
+  Source:            Reset (PAD)
+  Destination:       XLXI_1/check_0 (FF)
+  Destination Clock: clock rising
+
+  Data Path: Reset to XLXI_1/check_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.849   0.447  Reset_IBUF (Reset_IBUF)
+     INV:I->O              1   0.648   0.420  XLXI_1/Reset_inv1_INV_0 (XLXI_1/Reset_inv)
+     FDE:CE                    0.312          XLXI_1/check_0
+    ----------------------------------------
+    Total                      2.676ns (1.809ns logic, 0.867ns route)
+                                       (67.6% logic, 32.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 64 / 8
+-------------------------------------------------------------------------
+Offset:              11.126ns (Levels of Logic = 7)
+  Source:            XLXI_1/check_0 (FF)
+  Destination:       Y<0> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: XLXI_1/check_0 to Y<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             40   0.591   1.265  XLXI_1/check_0 (XLXI_1/check_0)
+     INV:I->O              4   0.648   0.587  XLXI_2/XLXI_1/XLXI_13/XLXI_14 (XLXI_2/XLXI_1/XLXI_13/XLXN_7)
+     AND4:I1->O            1   0.648   0.452  XLXI_2/XLXI_1/XLXI_13/XLXI_3 (XLXI_2/XLXI_1/XLXI_13/XLXN_15)
+     begin scope: 'XLXI_2/XLXI_1/XLXI_13/XLXI_15'
+     LUT4:I2->O            1   0.648   0.000  O12_SW01 (O12_SW0)
+     MUXF5:I0->O           1   0.276   0.423  O12_SW0_f5 (N01)
+     LUT4:I3->O            1   0.648   0.420  O12 (O)
+     end scope: 'XLXI_2/XLXI_1/XLXI_13/XLXI_15'
+     OBUF:I->O                 4.520          Y_0_OBUF (Y<0>)
+    ----------------------------------------
+    Total                     11.126ns (7.979ns logic, 3.147ns route)
+                                       (71.7% logic, 28.3% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1185 / 9
+-------------------------------------------------------------------------
+Delay:               25.672ns (Levels of Logic = 20)
+  Source:            B<0> (PAD)
+  Destination:       Y<7> (PAD)
+
+  Data Path: B<0> to Y<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.849   0.447  B_0_IBUF (B_0_IBUF)
+     INV:I->O              1   0.648   0.420  XLXI_2/XLXI_10/XLXI_8/XLXI_11 (XLXI_2/XLXI_10/XLXI_8/R)
+     NAND2:I0->O           1   0.648   0.420  XLXI_2/XLXI_10/XLXI_8/XLXI_7 (XLXI_2/XLXI_10/XLXI_8/XLXN_4)
+     NAND2:I0->O           1   0.648   0.420  XLXI_2/XLXI_10/XLXI_8/XLXI_4 (XLXI_2/XLXI_10/XLXI_8/XLXN_20)
+     NAND2:I0->O           3   0.648   0.531  XLXI_2/XLXI_10/XLXI_8/XLXI_3 (XLXI_2/XLXN_13)
+     INV:I->O              1   0.648   0.420  XLXI_2/XLXI_1/XLXI_5 (XLXI_2/XLXI_1/XLXN_10)
+     AND2:I1->O            1   0.648   0.420  XLXI_2/XLXI_1/XLXI_8 (XLXI_2/XLXI_1/XLXN_15)
+     OR2:I0->O             6   0.648   0.749  XLXI_2/XLXI_1/XLXI_9 (XLXI_2/XLXI_1/XLXN_22)
+     LUT3:I1->O            2   0.643   0.590  XLXI_2/XLXI_1/XLXI_1/Cout1 (XLXI_2/XLXN_17)
+     LUT3:I0->O            2   0.648   0.590  XLXI_2/XLXI_2/XLXI_1/Cout1 (XLXI_2/XLXN_18)
+     LUT3:I0->O            2   0.648   0.590  XLXI_2/XLXI_3/XLXI_1/Cout1 (XLXI_2/XLXN_19)
+     LUT3:I0->O            2   0.648   0.590  XLXI_2/XLXI_4/XLXI_1/Cout1 (XLXI_2/XLXN_20)
+     LUT3:I0->O            2   0.648   0.590  XLXI_2/XLXI_5/XLXI_1/Cout1 (XLXI_2/XLXN_21)
+     LUT3:I0->O            2   0.648   0.590  XLXI_2/XLXI_6/XLXI_1/Cout1 (XLXI_2/XLXN_25)
+     LUT3:I0->O            2   0.648   0.527  XLXI_2/XLXI_7/XLXI_1/Cout1 (XLXI_2/XLXN_26)
+     LUT3:I1->O            1   0.643   0.420  XLXI_2/XLXI_8/XLXI_1/Mxor_S_xo<0>1 (XLXI_2/XLXI_8/XLXN_31)
+     AND4:I0->O            1   0.648   0.563  XLXI_2/XLXI_8/XLXI_13/XLXI_7 (XLXI_2/XLXI_8/XLXI_13/XLXN_19)
+     begin scope: 'XLXI_2/XLXI_8/XLXI_13/XLXI_15'
+     LUT3:I0->O            1   0.648   0.420  O16 (O)
+     end scope: 'XLXI_2/XLXI_8/XLXI_13/XLXI_15'
+     OBUF:I->O                 4.520          Y_7_OBUF (Y<7>)
+    ----------------------------------------
+    Total                     25.672ns (16.375ns logic, 9.297ns route)
+                                       (63.8% logic, 36.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.26 secs
+ 
+--> 
+
+Total memory usage is 4522128 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,5 @@
+MODULE Processor
+	SUBMODULE ALUEightBit
+		INSTANCE XLXI_1
+	SUBMODULE Sync_up_counter
+		INSTANCE XLXI_2

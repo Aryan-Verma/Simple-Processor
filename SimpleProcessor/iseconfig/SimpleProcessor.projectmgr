@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="SimpleProcessor" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALU8bit H:|xilinx|SimpleProcessor|ALU8bit.sch</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_1 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_10 - MemorUnit</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_2 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_3 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_4 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_5 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_6 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_7 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_8 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit H:|xilinx|SimpleProcessor|ALUEightBit.sch/XLXI_9 - MemorUnit</ClosedNode>
+         <ClosedNode>/OPERATION1 H:|xilinx|SimpleProcessor|OPERATION1.sch</ClosedNode>
+         <ClosedNode>/OPERATION2 H:|xilinx|SimpleProcessor|OPERATION2.sch</ClosedNode>
+         <ClosedNode>/OPERATION3 H:|xilinx|SimpleProcessor|OPERATION3.sch</ClosedNode>
+         <ClosedNode>/OPERATION4 H:|xilinx|SimpleProcessor|OPERATION4.sch</ClosedNode>
+         <ClosedNode>/OPERATION4 H:|xilinx|SimpleProcessor|OPERATION4.sch/XLXI_1 - ALUEightBit</ClosedNode>
+         <ClosedNode>/OPERATION5 H:|xilinx|SimpleProcessor|OPERATION5.sch</ClosedNode>
+         <ClosedNode>/OPERATION5 H:|xilinx|SimpleProcessor|OPERATION5.sch/XLXI_1 - ALUEightBit</ClosedNode>
+         <ClosedNode>/OPERATION6 H:|xilinx|SimpleProcessor|OPERATION6.sch</ClosedNode>
+         <ClosedNode>/OPERATION6 H:|xilinx|SimpleProcessor|OPERATION6.sch/XLXI_1 - ALUEightBit</ClosedNode>
+         <ClosedNode>/OPERATION7 H:|xilinx|SimpleProcessor|OPERATION7.sch</ClosedNode>
+         <ClosedNode>/OPERATION7 H:|xilinx|SimpleProcessor|OPERATION7.sch/XLXI_1 - ALUEightBit</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_1 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_2 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_3 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_4 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_5 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_6 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_7 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_8 - ALU</ClosedNode>
+         <ClosedNode>/OPERATION8 H:|xilinx|SimpleProcessor|OPERATION8.sch/XLXI_1 - ALUEightBit/XLXI_9 - MemorUnit</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>XLXI_10 - F_F</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >18</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000178000000020000000000000000000000000200000064ffffffff000000810000000300000002000001780000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>XLXI_10 - F_F</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007f00000001000000000000004300000001000000000000005d0000000100000000000001b30000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ALU.sch</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_1 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_10 - MemorUnit</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_2 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_3 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_4 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_5 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_6 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_7 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_8 - ALU</ClosedNode>
+         <ClosedNode>/ALUEightBit_ALUEightBit_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALUEB_TB.vhd/UUT - ALUEightBit/XLXI_9 - MemorUnit</ClosedNode>
+         <ClosedNode>/ALU_ALU_sch_tb - behavioral H:|xilinx|SimpleProcessor|ALU_TB.vhd</ClosedNode>
+         <ClosedNode>/FA_TB - behavior H:|xilinx|SimpleProcessor|FA_TB.vhd</ClosedNode>
+         <ClosedNode>/MemorUnit_MemorUnit_sch_tb - behavioral H:|xilinx|SimpleProcessor|MU_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION1_OPERATION1_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP1_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION2_OPERATION2_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP2_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION3_OPERATION3_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP3_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION4_OPERATION4_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP4_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION4_OPERATION4_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP4_TB.vhd/UUT - OPERATION4/XLXI_1 - ALUEightBit</ClosedNode>
+         <ClosedNode>/OPERATION5_OPERATION5_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP5_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION6_OPERATION6_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP6_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION7_OPERATION7_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP7_TB.vhd</ClosedNode>
+         <ClosedNode>/OPERATION8_OPERATION8_sch_tb - behavioral H:|xilinx|SimpleProcessor|OP8_TB.vhd</ClosedNode>
+         <ClosedNode>/Processor H:|xilinx|SimpleProcessor|Processor.sch</ClosedNode>
+         <ClosedNode>/Processor_Processor_sch_tb - behavioral H:|xilinx|SimpleProcessor|Processor_TB.vhd</ClosedNode>
+         <ClosedNode>/SUC_TB - behavior H:|xilinx|SimpleProcessor|SUC_TB.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>OPERATION8_OPERATION8_sch_tb - behavioral (H:/xilinx/SimpleProcessor/OP8_TB.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >4</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000188000000020000000000000000000000000200000064ffffffff000000810000000300000002000001880000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>OPERATION8_OPERATION8_sch_tb - behavioral (H:/xilinx/SimpleProcessor/OP8_TB.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>SimpleProcessor</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000140000000020000000000000000000000000000000064ffffffff000000810000000000000002000000d00000000100000000000000700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>SimpleProcessor</CurrentItem>
+   </ItemView>
+</Project>

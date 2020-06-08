@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit5.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit5.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit5.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit5.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION1.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION1.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ControlUnit5.xst" -ofn "H:/xilinx/SimpleProcessor/ControlUnit5.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ControlUnit5.ngc ControlUnit5.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ControlUnit5_map.ncd ControlUnit5.ngd ControlUnit5.pcf 
+vhdtdtfi -lib work ControlUnit5.vhd -prj SimpleProcessor -o ControlUnit5.spl -module ControlUnit5 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a -w ControlUnit5.spl H:/xilinx/SimpleProcessor/ControlUnit5.sym 

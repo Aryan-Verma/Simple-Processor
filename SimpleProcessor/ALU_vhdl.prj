@@ -1,0 +1,3 @@
+vhdl work "H:\xilinx\SimpleProcessor\MUX3.vhf"
+vhdl work "H:\xilinx\SimpleProcessor\FA.vhd"
+vhdl work "H:\xilinx\SimpleProcessor\ALU.vhf"

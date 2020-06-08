@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/F_F.xst" -ofn "H:/xilinx/SimpleProcessor/F_F.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 F_F.ngc F_F.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o F_F_map.ncd F_F.ngd F_F.pcf 
+sch2sym -intstyle ise -family spartan3a -refsym F_F H:/xilinx/SimpleProcessor/F_F.sch H:/xilinx/SimpleProcessor/F_F.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/F_F.xst" -ofn "H:/xilinx/SimpleProcessor/F_F.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 F_F.ngc F_F.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o F_F_map.ncd F_F.ngd F_F.pcf 
+sch2sym -intstyle ise -family spartan3a -w -refsym F_F H:/xilinx/SimpleProcessor/F_F.sch H:/xilinx/SimpleProcessor/F_F.sym 

@@ -1,0 +1,2 @@
+vhdl isim_temp "Sync_up_counter.vhd"
+vhdl isim_temp "SUC_TB.vhd"

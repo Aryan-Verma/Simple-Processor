@@ -1,0 +1,9 @@
+sch2sym -intstyle ise -family spartan3a -w -refsym MemorUnit H:/xilinx/SimpleProcessor/MemorUnit.sch H:/xilinx/SimpleProcessor/MemorUnit.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/MemorUnit.xst" -ofn "H:/xilinx/SimpleProcessor/MemorUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 MemorUnit.ngc MemorUnit.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o MemorUnit_map.ncd MemorUnit.ngd MemorUnit.pcf 
+sch2sym -intstyle ise -family spartan3a -w -refsym MemorUnit H:/xilinx/SimpleProcessor/MemorUnit.sch H:/xilinx/SimpleProcessor/MemorUnit.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/MemorUnit.xst" -ofn "H:/xilinx/SimpleProcessor/MemorUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 MemorUnit.ngc MemorUnit.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o MemorUnit_map.ncd MemorUnit.ngd MemorUnit.pcf 
+sch2sym -intstyle ise -family spartan3a -w -refsym MemorUnit H:/xilinx/SimpleProcessor/MemorUnit.sch H:/xilinx/SimpleProcessor/MemorUnit.sym 

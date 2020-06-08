@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION1.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION1.ngc OPERATION1.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION1_map.ncd OPERATION1.ngd OPERATION1.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION1.ngc OPERATION1.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION1_map.ncd OPERATION1.ngd OPERATION1.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION1.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION1.ngc OPERATION1.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION1_map.ncd OPERATION1.ngd OPERATION1.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION1.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION1.ngc OPERATION1.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION1_map.ncd OPERATION1.ngd OPERATION1.pcf 
+sch2sym -intstyle ise -family spartan3a -w -refsym OPERATION1 H:/xilinx/SimpleProcessor/OPERATION1.sch H:/xilinx/SimpleProcessor/OPERATION1.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION1.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 OPERATION1.ngc OPERATION1.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o OPERATION1_map.ncd OPERATION1.ngd OPERATION1.pcf 

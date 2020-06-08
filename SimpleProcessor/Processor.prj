@@ -1,0 +1,8 @@
+vhdl work "MUX3.vhf"
+vhdl work "F_F.vhf"
+vhdl work "FA.vhd"
+vhdl work "MemorUnit.vhf"
+vhdl work "ALU.vhf"
+vhdl work "Sync_up_counter.vhd"
+vhdl work "ALUEightBit.vhf"
+vhdl work "Processor.vhf"

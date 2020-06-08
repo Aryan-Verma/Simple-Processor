@@ -1,0 +1,22 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+sch2sym -intstyle ise -family spartan3a -w -refsym ALU H:/xilinx/SimpleProcessor/ALU.sch H:/xilinx/SimpleProcessor/ALU.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 
+sch2sym -intstyle ise -family spartan3a -w -refsym ALU H:/xilinx/SimpleProcessor/ALU.sch H:/xilinx/SimpleProcessor/ALU.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+sch2sym -intstyle ise -family spartan3a -w -refsym ALU H:/xilinx/SimpleProcessor/ALU.sch H:/xilinx/SimpleProcessor/ALU.sym 
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/ALU.xst" -ofn "H:/xilinx/SimpleProcessor/ALU.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700a-fg484-4 ALU.ngc ALU.ngd  
+map -intstyle ise -p xc3s700a-fg484-4 -cm area -ir off -pr off -c 100 -o ALU_map.ncd ALU.ngd ALU.pcf 

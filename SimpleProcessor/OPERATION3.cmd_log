@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "H:/xilinx/SimpleProcessor/OPERATION3.xst" -ofn "H:/xilinx/SimpleProcessor/OPERATION3.syr" 
+sch2sym -intstyle ise -family spartan3a -w -refsym OPERATION3 H:/xilinx/SimpleProcessor/OPERATION3.sch H:/xilinx/SimpleProcessor/OPERATION3.sym 
